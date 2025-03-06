@@ -1,0 +1,6 @@
+# Ignore environment variables
+.env
+backend/config/db.js
+
+# Ignore dependencies
+node_modules
