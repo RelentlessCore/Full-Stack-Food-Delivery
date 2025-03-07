@@ -1,169 +1,62 @@
-🍽️ Tomato - Full Stack Food Delivery App
+# 🍽️ Tomato - Full Stack Food Delivery App  
 
-A modern, full-stack food ordering and delivery application built with React, MongoDB, Express, and Node.js, featuring Stripe integration for secure payments, real-time order tracking, and an admin panel for managing orders.
+A **modern, full-stack food ordering and delivery application** built with **React, MongoDB, Express, and Node.js**, featuring **Stripe integration for secure payments, real-time order tracking, and an admin panel** for managing orders.  
 
-✨ Features
+---
 
-✅ User Authentication – Register, login, and manage user sessions.✅ Food Ordering System – Browse menu, add items to cart, and place orders.✅ Stripe Payment Integration – Secure online payments.✅ Real-Time Order Tracking – View order status updates dynamically.✅ Admin Panel – Add, update, delete food items, and manage orders.✅ Fully Responsive UI – Optimized for desktop and mobile.
+## ✨ Features  
 
-🔥 Tech Stack
+✅ **User Authentication** – Register, login, and manage user sessions.  
+✅ **Food Ordering System** – Browse menu, add items to cart, and place orders.  
+✅ **Stripe Payment Integration** – Secure online payments.  
+✅ **Real-Time Order Tracking** – View order status updates dynamically.  
+✅ **Admin Panel** – Add, update, delete food items, and manage orders.  
+✅ **Fully Responsive UI** – Optimized for desktop and mobile.  
 
-Frontend: React, Vite, Tailwind CSS
+---
 
-Backend: Node.js, Express.js, MongoDB
+## 🔥 Tech Stack  
 
-Authentication: JWT, bcrypt
+- **Frontend:** React, Vite, Tailwind CSS  
+- **Backend:** Node.js, Express.js, MongoDB  
+- **Authentication:** JWT, bcrypt  
+- **Payment Processing:** Stripe API  
+- **State Management:** React Context API  
 
-Payment Processing: Stripe API
+---
 
-State Management: React Context API
+## 📸 Screenshots  
 
-📸 Screenshots
+### **Homepage**  
+![Homepage](https://github.com/user-attachments/assets/ca59248c-8a48-4d0b-a155-5b6eaaa9b8cf)  
 
-Homepage
+### **Food Menu & Categories**  
+![Food Menu](https://github.com/user-attachments/assets/2b12df92-8128-474b-81cc-498eb853e81a)  
 
+### **Cart Page**  
+![Cart Page](https://github.com/user-attachments/assets/26deab1e-c6ec-4c80-b8e2-9b1f54cc8915)  
 
+### **Delivery Information**  
+![Delivery Info](https://github.com/user-attachments/assets/d8cf6950-1837-454d-80c0-df99c1131f00)  
 
-Food Menu & Categories
+### **Stripe Payment Integration**  
+![Stripe Payment](https://github.com/user-attachments/assets/53317f96-6a6e-4ca9-ad3f-4fcf5cb7a906)  
 
+### **My Orders Page**  
+![My Orders](https://github.com/user-attachments/assets/ab821456-03cf-4053-8533-8db95b327966)  
 
+### **Admin Panel - Food Management**  
+![Admin Panel - Food Management](https://github.com/user-attachments/assets/1ea2a453-54a5-492e-9799-882877141e2a)  
 
-Cart Page
+### **Admin Panel - Orders Management**  
+![Admin Panel - Orders Management](https://github.com/user-attachments/assets/374a9b2e-17b0-468c-b3ad-be78436977f8)  
 
+---
 
+## 🚀 Installation & Setup  
 
-Delivery Information
+### 1️⃣ Clone the repository  
 
-
-
-Stripe Payment Integration
-
-
-
-My Orders Page
-
-
-
-Admin Panel - Food Management
-
-
-
-Admin Panel - Orders Management
-
-
-
-🚀 Installation & Setup
-
-1. Clone the repository
-
- git clone https://github.com/yourusername/tomato-food-delivery.git
- cd tomato-food-delivery
-
-2. Install dependencies
-
-Frontend
-
- cd frontend
- npm install
-
-Backend
-
- cd backend
- npm install
-
-Admin Panel
-
- cd admin
- npm install
-
-3. Set up environment variables
-
-Create a .env file in the backend folder and add:
-
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-STRIPE_SECRET_KEY=your_stripe_key
-
-4. Start the application
-
-Run Backend
-
- cd backend
- npm start
-
-Run Frontend
-
- cd frontend
- npm run dev
-
-Run Admin Panel
-
- cd admin
- npm run dev
-
-🛠️ API Endpoints
-
-Method
-
-Endpoint
-
-Description
-
-POST
-
-/api/auth/register
-
-User Registration
-
-POST
-
-/api/auth/login
-
-User Login
-
-GET
-
-/api/foods
-
-Fetch all food items
-
-POST
-
-/api/cart/add
-
-Add item to cart
-
-POST
-
-/api/orders/create
-
-Create new order
-
-GET
-
-/api/orders/user/:id
-
-Get user orders
-
-PATCH
-
-/api/orders/update/:id
-
-Update order status (Admin)
-
-🚀 Why Tomato?
-
-Tomato is a fully functional and scalable food delivery app designed for modern needs. With its secure payment processing, real-time order tracking, and intuitive admin panel, it is an ideal solution for online food ordering businesses.
-
-Pro Tip: Use this project in your portfolio or as a base to build a commercial food delivery service! 🚀
-
-🤝 Contributing
-
-If you want to contribute, please fork the repository and submit a pull request.
-
-📜 License
-
-This project is open-source and available under the MIT License.
-
-Made with ❤️ by [Your Name]
-
+```sh
+git clone https://github.com/yourusername/tomato-food-delivery.git
+cd tomato-food-delivery
