@@ -10,11 +10,7 @@ A **modern, full-stack food ordering and delivery application** built with **Rea
 ✅ **Food Ordering System** – Browse menu, add items to cart, and place orders.  
 ✅ **Stripe Payment Integration** – Secure online payments.  
 ✅ **Real-Time Order Tracking** – View order status updates dynamically.  
-<<<<<<< Updated upstream
 ✅ **Admin Panel** – Add, update, delete food items, and manage orders. (To access it, click the "Admin Panel" button on the navbar.) <br>
-=======
-✅ **Admin Panel** – Add, update, delete food items, and manage orders. (To access it, click the "Admin Panel" button on the navbar). <br>
->>>>>>> Stashed changes
 ✅ **Fully Responsive UI** – Optimized for desktop and mobile.
 
 ---
