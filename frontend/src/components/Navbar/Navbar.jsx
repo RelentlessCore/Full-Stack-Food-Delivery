@@ -26,7 +26,7 @@ const Navbar = ({ setShowLogin }) => {
         <a href='#footer' onClick={() => setMenu("contact")} className={`${menu === "contact" ? "active" : ""}`}>contact us</a>
       </ul>
       <div className="navbar-right">
-        <a href="https://food-delivery-admin.vercel.app/" target="_blank" rel="noopener noreferrer" className="admin-button">
+        <a href="https://admin-food-delivery-two.vercel.app/" target="_blank" rel="noopener noreferrer" className="admin-button">
           Admin Panel
         </a>
         <Link to='/cart' className='navbar-search-icon'>
