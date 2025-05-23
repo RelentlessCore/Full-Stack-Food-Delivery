@@ -29,6 +29,10 @@ app.get("/", (req, res) => {
   res.send("API Working");
 });
 
+app.get("/ping", (req, res) => {
+  res.status(200).send("Pong");
+});
+
 app.listen(port, () =>
   console.log(`Server started on http://localhost:${port}`)
 );
