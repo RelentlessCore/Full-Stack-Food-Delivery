@@ -1,0 +1,10 @@
+.admin-app {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-app .app-content {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}

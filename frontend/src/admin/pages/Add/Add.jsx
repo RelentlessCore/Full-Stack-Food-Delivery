@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import './Add.css'
+import React, { useState } from 'react';
+import './Add.css';
 import { assets, url } from '../../assets/assets';
 import axios from 'axios';
 import { toast } from 'react-toastify';
@@ -31,32 +31,32 @@ const Add = () => {
         formData.append("image", image);
         const response = await axios.post(`${url}/api/food/add`, formData);
         if (response.data.success) {
-            toast.success(response.data.message)
+            toast.success(response.data.message);
             setData({
                 name: "",
                 description: "",
                 price: "",
                 category: data.category
-            })
+            });
             setImage(false);
         }
         else {
-            toast.error(response.data.message)
+            toast.error(response.data.message);
         }
-    }
+    };
 
     const onChangeHandler = (event) => {
         const name = event.target.name;
         const value = event.target.value;
-        setData(data => ({ ...data, [name]: value }))
-    }
+        setData(data => ({ ...data, [name]: value }));
+    };
 
     return (
         <div className='add'>
             <form className='flex-col' onSubmit={onSubmitHandler}>
                 <div className='add-img-upload flex-col'>
                     <p>Upload image</p>
-                    <input onChange={(e) => { setImage(e.target.files[0]); e.target.value = '' }} type="file" accept="image/*" id="image" hidden />
+                    <input onChange={(e) => { setImage(e.target.files[0]); e.target.value = ''; }} type="file" accept="image/*" id="image" hidden />
                     <label htmlFor="image">
                         <img src={!image ? assets.upload_area : URL.createObjectURL(image)} alt="" />
                     </label>
@@ -91,7 +91,7 @@ const Add = () => {
                 <button type='submit' className='add-btn' >ADD</button>
             </form>
         </div>
-    )
-}
+    );
+};
 
-export default Add
+export default Add;
